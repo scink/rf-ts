@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"incremental": false,
+		"lib": ["es6", "es7", "esnext"],
+		"module": "esnext",
+		"moduleResolution": "node",
+		"newLine": "CRLF",
+		"noFallthroughCasesInSwitch": true,
+		"rootDir": "src",
+		"sourceMap": true,
+		"strict": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"target": "es5",
+    "outDir": "dist"
+  },
+	"exclude": ["node_modules", "build"]
+}
